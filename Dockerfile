@@ -1,5 +1,5 @@
 FROM tomcat:10.1
 
-COPY xeroxhub-backend.war /usr/local/tomcat/webapps/
+COPY xeroxhub-backend.war /usr/local/tomcat/webapps/ROOT.war
 
-EXPOSE 9090
+EXPOSE 8080
